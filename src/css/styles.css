@@ -22,7 +22,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 50%;
+  width: 360px;
+  margin-left: 156px;
 }
 .back-link {
   margin-bottom: 40px;
