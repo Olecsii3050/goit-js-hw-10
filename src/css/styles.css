@@ -5,8 +5,8 @@
   |============================
 */
 /* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
+/*@import url('./reset.css');
+@import url('./base.css');*/
 @import url('./container.css');
 @import url('./animations.css');
 
@@ -16,3 +16,123 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+/* Timer */
+.timer-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+.back-link {
+  margin-bottom: 40px;
+}
+.timer-input {
+  width: 272px;
+  height: 40px;
+  margin-bottom: 32px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.timer-button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #cfcfcf;
+}
+.timer {
+  width: 346px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+
+  gap: 24px;
+}
+.field {
+  width: 55px;
+}
+.value {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+/* Snackbar */
+.form {
+  margin-left: 156px;
+  width: 360px;
+}
+.form-label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.form-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+.fieldset {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-bottom: 24px;
+  padding: 20px 48px 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.fieldset-label {
+  width: 104px;
+  height: 32px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  gap: 48px;
+}
+.fieldset-input {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.snackbar-button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
